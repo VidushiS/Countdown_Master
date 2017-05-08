@@ -19,11 +19,11 @@ public class AutoCircle extends LinearOpMode
         rightMotor = hardwareMap.dcMotor.get("right_motor");
         rightMotor.setDirection(DcMotor.Direction.REVERSE);
 
-        telemetry.addData("Mode", "waiting");
+        telemetry.addData("Mode", "Waiting");
         telemetry.update();
         waitForStart();
 
-        telemetry.addData("Mode", "active");
+        telemetry.addData("Mode", "Active");
         telemetry.update();
 
         sleep(500);
